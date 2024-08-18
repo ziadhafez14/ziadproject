@@ -1,0 +1,554 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+} 
+
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+
+/*start nav*/
+nav{
+    background-color: black;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 13px;
+}
+
+nav .right{
+    float: right;
+}
+
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+/*end nav*/
+
+/*start textbox*/
+.textbox{
+    text-align: center;
+    padding: 60px 0px;
+    font-family: oswald;
+}
+
+.textbox h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.textbox p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.textbox p span{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+/*end textbox*/
+
+/*start header*/
+header{
+    position: relative;
+}
+
+header .prag{
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    color: white;
+    font-family: oswald;
+}
+
+header .prag h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+
+header .prag h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 4px;
+}
+
+header .prag button{
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    background-color: #ccccccc2;
+}
+
+header .prag button:hover{
+    background-color: #ccc;
+}
+
+/*end header*/
+
+/*start main*/
+
+main .leftside{
+    float: left;
+    width: 65%;
+    background-color:#f1f1f1 ;
+    padding: 20px 30px;
+}
+
+main .leftside article{
+    padding: 25px 35px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+main .leftside article .articletitle{
+    text-align: center;
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+main .leftside article .articledesc{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: oswald;
+    line-height: 27px;
+    padding: 10px 0px 22px 0px;
+}
+
+main .leftside article .articledesc span{
+    color: #666666;
+}
+
+
+main .leftside article .opra{
+    font-family: opensans;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+main .leftside article .oprad{
+    font-family: opensans;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+main .leftside article .like{
+    background-color: white;
+    border: 1px solid #bebcbc;
+    padding: 10px 15px;
+    font-family: opensans;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+main .leftside article .like:hover{
+    background-color: #ccc;
+}
+
+main .leftside article .replie{
+    font-family: opensans;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 15px;
+    border: none;
+    float: right;
+}
+
+main .leftside article .replie span{
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+    padding: 0px 8px;
+    font-weight: 400;
+}
+
+main .leftside article .replie:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+.hr {
+    border-top: 1px solid #e0dfdf;
+    margin: 60px 0px 20px 0px;
+}
+
+main .leftside article .articlefooter{
+    width: 100%;
+}
+
+main .leftside article .articlefooter .contain{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+main .leftside article .articlefooter .contain .img{
+    width: 10%;
+    float: left;
+}
+
+main .leftside article .articlefooter .contain .img img{
+    width: 100%;
+}
+
+main .leftside article .articlefooter .contain .type{
+    width: 90%;
+    padding-left: 70px;
+    padding-top: 8px;
+}
+
+main .leftside article .articlefooter .contain .type .txt{
+    font-family: oswald;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 10px; 
+}
+
+main .leftside article .articlefooter .contain .type .txt span{
+    font-family: oswald;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px; 
+    color: black;
+}
+
+main .leftside article .articlefooter .contain .type .bxb{
+    font-family: opensans;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 15px; 
+}
+
+main .rightside{
+    float: right;
+    width: 35%;
+    background-color:#f1f1f1 ;
+    padding: 20px 30px 20px 0px;
+}
+
+main .rightside .rightinto{
+    background-color: black;
+    color: white;
+}
+
+main .rightside h1{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: oswald;
+    padding: 0px 20px;
+}
+
+main .rightside p{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: opensans;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+main .rightside .card h3{
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: oswald;
+}
+
+main .rightside .card .choose{
+    display: flex;
+    background-color: white;
+}
+
+main .rightside .card .vory{
+    width: 12%;
+    margin: 15px;
+}
+
+main .rightside .card .writ{
+    width: 88%;
+    padding-top: 20px;
+}
+
+main .rightside .card .writ h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: opensans;
+}
+
+main .rightside .card .writ h5{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: opensans;
+}
+
+main .rightside .card .choose:hover{
+    background-color: #ccc;
+}
+
+main .rightside .card hr{
+    opacity: 0.3;
+}
+
+main .rightside .card .AD{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main .rightside .card .AD p{
+    background-color: #f1f1f1;
+    padding: 80px 0px;
+}
+
+main .rightside .card .tags{
+    background-color: white;
+    padding: 15px 15px 25px 15px;
+}
+
+main .rightside .card .tags span{
+    display: inline-block;
+    background-color: #f1f1f1;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: opensans;
+    padding: 0px 12px;
+    margin-top: 15px;
+}
+
+main .rightside .card .tags .big{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: opensans;
+}
+
+main .rightside .card .sppp{
+    background-color: white;
+    padding: 5px;
+}
+
+main .rightside .card .sppp img{
+    width: 49.5%;
+    padding: 5px;
+}
+
+main .rightside .card .link{
+    background-color: white;
+    padding: 20px;
+}
+
+main .rightside .card .link a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-right: 2px;
+}
+
+main .rightside .card .link a:hover{
+    color: #666666;
+}
+
+main .rightside .card .ccc{
+    background-color: white;
+    padding: 20px;
+}
+
+main .rightside .card .ccc form label{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: opensans;
+}
+
+main .rightside .card .ccc form .xxx .email{
+    padding: 10px;
+    border: solid 1px #bebcbc;
+    font-family: opensans;
+    width: 100%;
+    margin: 18px 0px;
+}
+
+main .rightside .card .ccc form .submit{
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-family: opensans;
+    padding: 11px;
+}
+
+main .rightside .card .ccc form .submit:hover{
+    background-color: #bebcbc;
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+/*end main*/
+
+/*start footer*/
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+
+footer > a{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+    font-family: opensans;
+}
+
+footer p{
+    padding-top: 45px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: opensans;
+}
+
+footer p a{
+    color: white;
+}
+/*end footer*/
+
+
+#subsw{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0px;
+    visibility: hidden;
+}
+
+#subsw div{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: white;
+
+}
+
+#subsw div .close{
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 3px 8px;
+}
+
+#subsw div .close:hover{
+    background-color: #ccc;
+}
+
+#subsw div h1{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: oswald;
+    letter-spacing: 3px;
+}
+
+#subsw div p{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: opensans;
+    margin-bottom: 20px;
+}
+
+#subsw div input{
+    font-family: opensans;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#subsw div .fff{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: opensans;
+}
+
+#subsw div .fff:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+
+@media screen and (max-width:800px){
+    header .prag{
+        top: 20%;
+    }
+}
+
+@media screen and (max-width:600px){
+    header .prag h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    header .prag h1{
+        font-size: 36px;
+        line-height: 45px;
+    }
+    
+    header .prag button{
+        padding: 15px 25px;
+    }
+    
+    main .leftside,main .rightside{
+        float: none;
+        width: 100%;
+    }
+    
+}
